@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <meta charset="utf-8">
+  <title>Angular6Firestore</title>
+  <base href="https://github.com/Rastyto/Angular_Routing_Material">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="" class="brand-logo">Logo</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="./boards/boards.component">Inicio</a></li>
+        <li><a href="./boards-create/boards-create.component">Estudiantes <span class="new badge">4</span></a></li>
+        <li><a href="./boards-detail/boards-detail.component">Asignaturas</a></li>
+      </ul>
+    </div>
+  </nav>
+  <app-root></app-root>
+<script type="text/javascript" src="runtime.js"></script><script type="text/javascript" src="polyfills.js"></script><script type="text/javascript" src="styles.js"></script><script type="text/javascript" src="vendor.js"></script><script type="text/javascript" src="main.js"></script></body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDzM171PlzGCXKWpksbD_tr1D5KUcnuZN8",
+    authDomain: "angular6-b4fa0.firebaseapp.com",
+    databaseURL: "https://angular6-b4fa0.firebaseio.com",
+    projectId: "angular6-b4fa0",
+    storageBucket: "angular6-b4fa0.appspot.com",
+    messagingSenderId: "435305771488",
+    appId: "1:435305771488:web:f70982d7af2b0e2b8ffb85",
+    measurementId: "G-FCVP2B4W5Y"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</html>
